@@ -37,7 +37,7 @@ And you're ready to go, for more information on how to use the framework, check 
 
 Credits go to [matthewhartman](https://github.com/matthewhartman) for creating this cool and easy to use framework
 
-Follow me on [twitter](http://twitter.com/rkrdo89)
+Also, you can follow me on [twitter](http://twitter.com/rkrdo89)
 
 ## License
 Copyright (c) 2012 Ricardo Cruz Alonso
