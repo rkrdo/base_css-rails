@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Use Base CSS framework with Rails 3.1}
   gem.homepage      = "https://github.com/rkrdo/base_css-rails"
 
-  gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE", "README.md"]
+  gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
   gem.require_paths = ["lib"]
   gem.add_dependency "railties", "~> 3.1"
 
