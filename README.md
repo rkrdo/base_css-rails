@@ -22,7 +22,7 @@ Or install it yourself as:
 Once installed on the Rails application, you just have to require the stylesheet on your application.css file
 
 ```
-*= require base_style
+*= require base-style
 ```
 
 Also you have to require the javascript file on you application.js file
