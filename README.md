@@ -19,25 +19,43 @@ Or install it yourself as:
 
 ## Usage
 
+### With the installer
+	
+Run the rails generator:
+
+	rails g base_css:install
+
+### Manual installation
+
 Once installed on the Rails application, you just have to require the stylesheet on your application.css file
 
-```
-*= require base-style
-```
+
+	*= require base-style
+
 
 Also you have to require the javascript file on you application.js file
 
-```
-//= require base-script
-```
 
-And you're ready to go, for more information on how to use the framework, check the [Documentation](http://matthewhartman.github.com/base/demo/)
+	//= require base-script
+
+
+And you're ready to go, for more information on how to use the framework, check the [Documentation](http://matthewhartman.github.com/base/docs/base-css.html)
+
+## Changelog
+
+ - Added a install generator
+ - Updated the file to the latest [update](https://github.com/matthewhartman/base/commit/2be664ce77faadb167aef89e7964d1d48227724b) from the Github repository
+ 
 
 ## Credits
 
+### Base author
+
 Credits go to [matthewhartman](https://github.com/matthewhartman) for creating this cool and easy to use framework
 
-Also, you can follow me on [twitter](http://twitter.com/rkrdo89)
+### About me
+
+You can follow me on [Twitter](http://twitter.com/rkrdo89), [Facbeook](https://www.facebook.com/rkrdoc89) and [Linkedn](http://www.linkedin.com/pub/ricardo-cruz/55/38/2b3)
 
 ## License
 Copyright (c) 2012 Ricardo Cruz

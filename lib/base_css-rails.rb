@@ -2,8 +2,6 @@ require "base_css-rails/version"
 
 module BaseCss
   module Rails
-    # Your code goes here...
-    class Engine < ::Rails::Engine
-    end
+    require 'base_css-rails/engine'
   end
 end
