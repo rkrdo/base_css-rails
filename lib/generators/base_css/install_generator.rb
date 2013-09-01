@@ -6,6 +6,7 @@ module BaseCss
 
       desc 'This generator adds the basecss files to the assets manifest'
       def add_assets
+        insert_into_file "app/assets/javascripts/application#{detect_js_format[0]}", "#{detect_js_format[1]} require shiv\n", :after => "jquery_ujs\n"
         insert_into_file "app/assets/javascripts/application#{detect_js_format[0]}", "#{detect_js_format[1]} require base-script\n", :after => "jquery_ujs\n"
         insert_into_file "app/assets/stylesheets/application#{detect_css_format[0]}", "#{detect_css_format[1]} require base-style\n", :after => "require_self\n"
       end
