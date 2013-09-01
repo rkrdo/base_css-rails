@@ -33,16 +33,18 @@ Once installed on the Rails application, you just have to require the stylesheet
 	*= require base-style
 
 
-Also you have to require the javascript file on you application.js file
+Also you have to require the javascript files on you application.js file
 
 
 	//= require base-script
+	//= require shiv
 
 
-And you're ready to go, for more information on how to use the framework, check the [Documentation](http://matthewhartman.github.com/base/docs/base-css.html)
+And you're ready to go, for more information on how to use the framework, check the [Documentation](http://matthewhartman.github.io/base/docs/index.html)
 
 ## Changelog
 
+ - Updated to version 1.5 (latest [commit](https://github.com/matthewhartman/base/commit/9b2e3f7a63cc99a354efc543a15882536e22c2f5))
  - Added a install generator
  - Updated the file to the latest [update](https://github.com/matthewhartman/base/commit/2be664ce77faadb167aef89e7964d1d48227724b) from the Github repository
  
