@@ -20,7 +20,7 @@ Or install it yourself as:
 ## Usage
 
 ### With the installer
-	
+
 Run the rails generator:
 
 	rails g base_css:install
@@ -47,7 +47,7 @@ And you're ready to go, for more information on how to use the framework, check 
  - Updated to version 1.5 (latest [commit](https://github.com/matthewhartman/base/commit/9b2e3f7a63cc99a354efc543a15882536e22c2f5))
  - Added a install generator
  - Updated the file to the latest [update](https://github.com/matthewhartman/base/commit/2be664ce77faadb167aef89e7964d1d48227724b) from the Github repository
- 
+
 
 ## Credits
 
@@ -57,7 +57,7 @@ Credits go to [matthewhartman](https://github.com/matthewhartman) for creating t
 
 ### About me
 
-You can follow me on [Twitter](http://twitter.com/rkrdo89), [Facbeook](https://www.facebook.com/rkrdoc89) and [Linkedn](http://www.linkedin.com/pub/ricardo-cruz/55/38/2b3)
+You can follow me on [Twitter](http://twitter.com/rkrdo89), [Facebook](https://www.facebook.com/rkrdoc89) and [Linkedin](http://www.linkedin.com/pub/ricardo-cruz/55/38/2b3)
 
 ## License
 Copyright (c) 2012 Ricardo Cruz

@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{This gem adds the Base CSS framework to your Rails application's asset pipeline}
   gem.summary       = %q{Use Base CSS framework with Rails 3.1}
   gem.homepage      = "https://github.com/rkrdo/base_css-rails"
-
+  gem.license       = 'MIT'
   gem.files = Dir["{lib,vendor}/**/*"] + ["LICENSE.txt", "README.md"]
   gem.require_paths = ["lib"]
   gem.add_dependency "railties", "~> 3.1"
